@@ -1,3 +1,3 @@
-## [Pulse Hub Consultancy](hhttps://pulsehubconsultancy.com/)
+## [PulseHub Consultancy](hhttps://pulsehubconsultancy.com/)
 
-Pulse Hub Consultancy website
+PulseHub Consultancy website

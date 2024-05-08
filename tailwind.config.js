@@ -1,14 +1,76 @@
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["index.html", "./node_modules/flowbite/**/*.js"],
+  content: [
+    "./dist/**/*.html",
+  ],
+  darkMode: 'class',
   theme: {
+    fontFamily: {
+      'IBMPlexSerif': ['IBM Plex Serif', 'serif'],
+      'SpaceGrotesk': ['Space Grotesk', 'sans-serif'],
+      'Manrope': ['Manrope', 'sans-serif'],
+      'Unicons': ['Unicons'],
+      'Monospace': ['SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace'],
+      'Custom': ['Custom'],
+      'DMSerif': ['DM Serif Display'],
+      'SansSerif': ['sans-serif'],
+      'THICCCBOI': ['THICCCBOI', 'sans-serif'],
+      'Urbanist': ['Urbanist', 'sans-serif'],
+    },
+    container: {
+      center: true,
+      padding: '15px',
+    },
     extend: {
-      colors: {
-        primary: { "50": "#eff6ff", "100": "#dbeafe", "200": "#bfdbfe", "300": "#93c5fd", "400": "#60a5fa", "500": "#3b82f6", "600": "#2563eb", "700": "#1d4ed8", "800": "#1e40af", "900": "#1e3a8a" }
-      }
+      screens: {
+        'xxl': {
+          'min': '1400px',
+        },
+        'xl': {
+          'min': '1200px',
+        },
+        'lg': {
+          'min': '992px',
+          'max': '1199.98px'
+        },
+        'md': {
+          'min': '768px',
+          'max': '991.98px'
+        },
+        'sm': {
+          'min': '576px',
+          'max': '767.98px'
+        },
+        'xsm': {
+          'max': '575.98px'
+        },
+      },
     },
   },
   plugins: [
-    require('flowbite/plugin')
-  ],
+    function ({
+    addComponents
+  }) {
+    addComponents({
+      '.container': {
+        maxWidth: '100%',
+        '@screen sm': {
+          maxWidth: '540px',
+        },
+        '@screen md': {
+          maxWidth: '720px',
+        },
+        '@screen lg': {
+          maxWidth: '960px',
+        },
+        '@screen xl': {
+          maxWidth: '1140px',
+        },
+        '@screen xxl': {
+          maxWidth: '1320px',
+        },
+      }
+    })
+  }],
 }

@@ -55,6 +55,14 @@
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="./assets/css/colors/grape.css">
   <link rel="preload" href="./assets/css/fonts/urbanist.css" as="style" onload="this.rel='stylesheet'">
+
+  <style>
+    @media (min-width: 900px) { 
+      .blur{
+        filter: grayscale(55%);
+      }
+    }
+  </style>
 </head>
 
 <body class="!font-urbanist !text-[.85rem]">
@@ -323,7 +331,7 @@
       </div>
     </section>
     <!-- /section -->
-    <section id="process" style="filter: grayscale(55%)" class="wrapper image-wrapper bg-image bg-overlay !bg-fixed bg-no-repeat bg-[center_center] bg-cover relative z-0 before:content-[''] before:block before:absolute before:z-[1] before:w-full before:h-full before:left-0 before:top-0 before:bg-[rgba(30,34,40,.5)]" data-image-src="./assets/img/photos/bg10.jpg">
+    <section id="process" class="blur wrapper image-wrapper bg-image bg-overlay !bg-fixed bg-no-repeat bg-[center_center] bg-cover relative z-0 before:content-[''] before:block before:absolute before:z-[1] before:w-full before:h-full before:left-0 before:top-0 before:bg-[rgba(30,34,40,.5)]" data-image-src="./assets/img/photos/bg10.jpg">
       <!-- <div class="container py-[4.5rem]">
         <div class="flex flex-wrap mx-[-15px] !text-center">
           <div class="lg:w-11/12 xl:w-10/12 xxl:w-8/12 w-full flex-[0_0_auto] px-[15px] max-w-full !mx-auto">

@@ -4,7 +4,7 @@
   "description": "Sandbox - Modern & Multipurpose Tailwind CSS Template",
   "main": "index.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "ibtheme",

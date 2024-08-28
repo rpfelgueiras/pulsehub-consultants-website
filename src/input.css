@@ -1275,10 +1275,10 @@
         background: linear-gradient(0deg,#fff8ee,rgba(255,255,255,0) 100%);
     }
     .bg-gradient-reverse-purple{
-        background: linear-gradient(0deg,#f2f3fb,rgba(255,255,255,0) 100%);
+        background: linear-gradient(0deg,#FFFFFF,rgba(255,255,255,0) 100%);
     }
     .bg-gradient-purple {
-        background: linear-gradient(180deg,#f2f3fb,rgba(255,255,255,0) 100%);
+        background: linear-gradient(180deg,#FFFFFF,rgba(255,255,255,0) 100%);
     }
     .bg-gradient-blend {
         background: linear-gradient(160deg,#ffb7b7 9%,#727272 100%),radial-gradient(100% 100% at 30% 10%,#ffd1d1 0,#260000 100%),linear-gradient(180deg,#0ff 0,#fff 100%),radial-gradient(100% 100% at 70% 0,red 0,#00ffe0 100%),linear-gradient(280deg,#dbff00 0,#30f 100%);
@@ -1437,10 +1437,10 @@
         @apply text-[#605dba] before:bg-[#605dba]
     }
     .btn-violet.btn-expand {
-        @apply text-[#a07cc5] before:bg-[#a07cc5]
+        @apply text-[#D8D1F2] before:bg-[#D8D1F2]
     }
     .btn-pink.btn-expand {
-        @apply text-[#d16b86] before:bg-[#d16b86]
+        @apply text-[#4E4E4E] before:bg-[#4E4E4E]
     }
     .btn-fuchsia.btn-expand {
         @apply text-[#e668b3] before:bg-[#e668b3]
@@ -1458,7 +1458,7 @@
         @apply text-[#45c4a0] before:bg-[#45c4a0]
     }
     .btn-leaf.btn-expand {
-        @apply text-[#7cb798] before:bg-[#7cb798]
+        @apply text-[#FFFFFF] before:bg-[#FFFFFF]
     }
     .btn-aqua.btn-expand {
         @apply text-[#54a8c7] before:bg-[#54a8c7]
@@ -1539,36 +1539,36 @@
         @apply text-[#605dba]
     }
    .btn-soft-violet {
-        @apply text-[#a07cc5]
+        @apply text-[#D8D1F2]
         bg-[#f0eaf6]
         border-[#f0eaf6]
-        hover:text-[#a07cc5]
+        hover:text-[#D8D1F2]
         hover:bg-[#f0eaf6]
         hover:border-[#f0eaf6]
-        active:text-[#a07cc5]
+        active:text-[#D8D1F2]
         active:bg-[#f0eaf6]
         active:border-[#f0eaf6]
 }
     .btn-soft-violet.btn-expand {
-        @apply text-[#a07cc5] before:bg-[#f0eaf6]
+        @apply text-[#D8D1F2] before:bg-[#f0eaf6]
     }
     .btn-soft-violet.btn-expand i,.btn-soft-violet.btn-expand:before,.btn-soft-violet.btn-expand:hover,.btn-soft-violet.btn-expand:hover:before {
-        @apply text-[#a07cc5]
+        @apply text-[#D8D1F2]
     }
     .btn-soft-pink {
-        @apply text-[#d16b86] bg-[#f8e7ec] border-[#f8e7ec]
-        hover:text-[#d16b86]
+        @apply text-[#4E4E4E] bg-[#f8e7ec] border-[#f8e7ec]
+        hover:text-[#4E4E4E]
         hover:bg-[#f8e7ec]
         hover:border-[#f8e7ec]
-        active:text-[#d16b86]
+        active:text-[#4E4E4E]
         active:bg-[#f8e7ec]
         active:border-[#f8e7ec]
 }
     .btn-soft-pink.btn-expand {
-        @apply text-[#d16b86] before:bg-[#f8e7ec]
+        @apply text-[#4E4E4E] before:bg-[#f8e7ec]
     }
     .btn-soft-pink.btn-expand i,.btn-soft-pink.btn-expand:before,.btn-soft-pink.btn-expand:hover,.btn-soft-pink.btn-expand:hover:before {
-        @apply text-[#d16b86]
+        @apply text-[#4E4E4E]
     }
     .btn-soft-fuchsia {
         @apply text-[#e668b3]
@@ -1652,21 +1652,21 @@
         @apply text-[#45c4a0]
     }
     .btn-soft-leaf {
-        @apply text-[#7cb798]
+        @apply text-[#FFFFFF]
         bg-[#eaf3ef]
         border-[#eaf3ef]
-        hover:text-[#7cb798]
+        hover:text-[#FFFFFF]
         hover:bg-[#eaf3ef]
         hover:border-[#eaf3ef]
-        active:text-[#7cb798]
+        active:text-[#FFFFFF]
         active:bg-[#eaf3ef]
         active:border-[#eaf3ef]
 }
     .btn-soft-leaf.btn-expand {
-        @apply text-[#7cb798] before:bg-[#eaf3ef]
+        @apply text-[#FFFFFF] before:bg-[#eaf3ef]
     }
     .btn-soft-leaf.btn-expand i,.btn-soft-leaf.btn-expand:before,.btn-soft-leaf.btn-expand:hover,.btn-soft-leaf.btn-expand:hover:before {
-        @apply text-[#7cb798]
+        @apply text-[#FFFFFF]
     }
     .btn-soft-aqua {
         @apply text-[#54a8c7]
@@ -2587,16 +2587,16 @@
         @apply stroke-[rgba(96,93,186,0.1)]
     }
     .progressbar.violet svg path:last-child {
-        @apply stroke-[#a07cc5]
+        @apply stroke-[#D8D1F2]
     }
     .progressbar.semi-circle.violet svg path:first-child {
-        @apply stroke-[rgba(160,124,197,0.1)]
+        @apply stroke-[rgba(216,209,242,0.1)]
     }
     .progressbar.pink svg path:last-child {
-        @apply stroke-[#d16b86]
+        @apply stroke-[#4E4E4E]
     }
     .progressbar.semi-circle.pink svg path:first-child {
-        @apply stroke-[rgba(209,107,134,0.1)]
+        @apply stroke-[rgba(78,78,78,0.1)]
     }
     .progressbar.fuchsia svg path:last-child {
         @apply stroke-[#e668b3]
@@ -2629,10 +2629,10 @@
         @apply stroke-[rgba(69,196,160,0.1)]
     }
     .progressbar.leaf svg path:last-child {
-        @apply stroke-[#7cb798]
+        @apply stroke-[#FFFFFF]
     }
     .progressbar.semi-circle.leaf svg path:first-child {
-        @apply stroke-[rgba(124,183,152,0.1)]
+        @apply stroke-[rgba(255,255,255,0.1)]
     }
     .progressbar.aqua svg path:last-child {
         @apply stroke-[#54a8c7]
@@ -2713,13 +2713,13 @@
         @apply stroke-[#c6b0dc]
     }
     .progressbar.semi-circle.soft-violet svg path:first-child {
-        @apply stroke-[rgba(160,124,197,0.1)]
+        @apply stroke-[rgba(216,209,242,0.1)]
     }
     .progressbar.soft-pink svg path:last-child {
         @apply stroke-[#e3a6b6]
     }
     .progressbar.semi-circle.soft-pink svg path:first-child {
-        @apply stroke-[rgba(209,107,134,0.1)]
+        @apply stroke-[rgba(78,78,78,0.1)]
     }
     .progressbar.soft-fuchsia svg path:last-child {
         @apply stroke-[#f0a4d1]
@@ -2755,7 +2755,7 @@
         @apply stroke-[#b0d4c1]
     }
     .progressbar.semi-circle.soft-leaf svg path:first-child {
-        @apply stroke-[rgba(124,183,152,0.1)]
+        @apply stroke-[rgba(255,255,255,0.1)]
     }
     .progressbar.soft-aqua svg path:last-child {
         @apply stroke-[#98cbdd]
@@ -3367,10 +3367,10 @@
     @apply fill-[#605dba]
     }
     .solid.text-violet .fill-primary,.solid.text-violet .fill-secondary {
-    @apply fill-[#a07cc5]
+    @apply fill-[#D8D1F2]
     }
     .solid.text-pink .fill-primary,.solid.text-pink .fill-secondary {
-    @apply fill-[#d16b86]
+    @apply fill-[#4E4E4E]
     }
     .solid.text-fuchsia .fill-primary,.solid.text-fuchsia .fill-secondary {
     @apply fill-[#e668b3]
@@ -3388,7 +3388,7 @@
     @apply !fill-[#45c4a0]
     }
     .solid.text-leaf .fill-primary,.solid.text-leaf .fill-secondary {
-    @apply fill-[#7cb798]
+    @apply fill-[#FFFFFF]
     }
     .solid.text-aqua .fill-primary,.solid.text-aqua .fill-secondary {
     @apply fill-[#54a8c7]
@@ -3448,13 +3448,13 @@
     @apply fill-[#bfbee3]
     }
     .solid-mono.text-violet .fill-primary {
-    @apply fill-[#a07cc5]
+    @apply fill-[#D8D1F2]
     }
     .solid-mono.text-violet .fill-secondary {
     @apply fill-[#d9cbe8]
     }
     .solid-mono.text-pink .fill-primary {
-    @apply fill-[#d16b86]
+    @apply fill-[#4E4E4E]
     }
     .solid-mono.text-pink .fill-secondary {
     @apply fill-[#edc4cf]
@@ -3490,7 +3490,7 @@
     @apply fill-[#b5e7d9]
     }
     .solid-mono.text-leaf .fill-primary {
-    @apply fill-[#7cb798]
+    @apply fill-[#FFFFFF]
     }
     .solid-mono.text-leaf .fill-secondary {
     @apply fill-[#cbe2d6]
@@ -3660,7 +3660,7 @@
     @apply !fill-[#cbe2d6];
 }
 .solid-mono.text-leaf .fill-primary {
-    @apply !fill-[#7cb798];
+    @apply !fill-[#FFFFFF];
 }
 .solid-mono.text-navy .fill-secondary {
     @apply !fill-[#aeb2ba];
@@ -3678,7 +3678,7 @@
     @apply !fill-[#edc4cf];
 }
 .solid-mono.text-pink .fill-primary {
-    @apply !fill-[#d16b86];
+    @apply !fill-[#4E4E4E];
 }
 .solid-mono.text-purple .fill-secondary {
     @apply !fill-[#c7cbed];
@@ -3696,7 +3696,7 @@
     @apply !fill-[#d9cbe8];
 }
 .solid-mono.text-violet .fill-primary {
-    @apply !fill-[#a07cc5];
+    @apply !fill-[#D8D1F2];
 }
 .solid-mono.text-yellow .fill-secondary {
     @apply !fill-[#fde2bc];
@@ -3735,13 +3735,13 @@
     @apply fill-[#e668b3];
     }
     .shape.violet .svg-fill {
-        @apply fill-[#a07cc5];
+        @apply fill-[#D8D1F2];
     }
     .shape.yellow .svg-fill {
     @apply fill-[#fab758];
     }
     .shape.leaf .svg-fill {
-    @apply fill-[#7cb798];
+    @apply fill-[#FFFFFF];
     }
     .shape.pale-primary .svg-fill {
     @apply fill-[#e0e9fa];
@@ -4115,7 +4115,7 @@
         background:repeating-linear-gradient(-55deg,rgba(255,255,255,0) .8px,#45c4a0 1.6px,#45c4a0 3px,rgba(255,255,255,0) 3.8px,rgba(255,255,255,0) 10px)
         }
     .bg-line.leaf {
-    background:repeating-linear-gradient(-55deg,rgba(255,255,255,0) .8px,#7cb798 1.6px,#7cb798 3px,rgba(255,255,255,0) 3.8px,rgba(255,255,255,0) 10px)
+    background:repeating-linear-gradient(-55deg,rgba(255,255,255,0) .8px,#FFFFFF 1.6px,#FFFFFF 3px,rgba(255,255,255,0) 3.8px,rgba(255,255,255,0) 10px)
     }
     .bg-line.aqua {
     background:repeating-linear-gradient(-55deg,rgba(255,255,255,0) .8px,#54a8c7 1.6px,#54a8c7 3px,rgba(255,255,255,0) 3.8px,rgba(255,255,255,0) 10px)
@@ -4136,10 +4136,10 @@
     @apply bg-[radial-gradient(#605dba_2px,transparent_2.5px)]
     }
     .bg-dot.violet {
-    @apply bg-[radial-gradient(#a07cc5_2px,transparent_2.5px)]
+    @apply bg-[radial-gradient(#D8D1F2_2px,transparent_2.5px)]
     }
     .bg-dot.pink {
-    @apply bg-[radial-gradient(#d16b86_2px,transparent_2.5px)]
+    @apply bg-[radial-gradient(#4E4E4E_2px,transparent_2.5px)]
     }
     .bg-dot.fuchsia {
     @apply bg-[radial-gradient(#e668b3_2px,transparent_2.5px)]
@@ -4160,7 +4160,7 @@
     @apply bg-[radial-gradient(#f78b77_2px,transparent_2.5px)]
     }
     .bg-dot.leaf {
-    @apply bg-[radial-gradient(#7cb798_2px,transparent_2.5px)]
+    @apply bg-[radial-gradient(#FFFFFF_2px,transparent_2.5px)]
     }
     .bg-dot.aqua {
     @apply bg-[radial-gradient(#54a8c7_2px,transparent_2.5px)]
@@ -6995,10 +6995,10 @@
         @apply bg-[rgba(96,93,186,.9)]
         }
         .itooltip-violet.itooltip-inner {
-        @apply bg-[rgba(160,124,197,.9)]
+        @apply bg-[rgba(216,209,242,.9)]
         }
         .itooltip-pink.itooltip-inner {
-        @apply bg-[rgba(209,107,134,.9)]
+        @apply bg-[rgba(78,78,78,.9)]
         }
         .itooltip-fuchsia.itooltip-inner {
         @apply bg-[rgba(230,104,179,.9)]
@@ -7016,7 +7016,7 @@
         @apply bg-[rgba(69,196,160,.9)]
         }
         .itooltip-leaf.itooltip-inner {
-        @apply bg-[rgba(124,183,152,.9)]
+        @apply bg-[rgba(255,255,255,.9)]
         }
         .itooltip-aqua.itooltip-inner {
         @apply bg-[rgba(84,168,199,.9)]
